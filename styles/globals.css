@@ -1,0 +1,63 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.bg-image1 {
+    background-image: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-imagePr {
+    background-image: url('/pronjarean/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-imageSw {
+    background-image: url('/sriwilai/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-imageSk {
+    background-image: url('/seka/img8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.m1 {
+    background-color: #51af5b;
+}
+
+.text_m1 {
+    color: #51af5b;
+}
+
+.vdo_bg {
+    height: calc(100vh - 66px);
+    overflow: hidden;
+}
+
+.vdo_main {
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.text-shadow {
+    text-shadow: black 1px 2px 2px;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
