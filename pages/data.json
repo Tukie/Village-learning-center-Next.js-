@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "ศูนย์เรียนรู้เกษตรอินทรีย์ PGS",
+    "tambol": "พรเจริญ",
+    "district": "พรเจริญ",
+    "url": "pronjarean/pronjarean_detail"
+  },
+  {
+    "id": 2,
+    "name": "ศูนย์เรียนรู้การลดต้นทุนและเพิ่มประสิทธิภาพการผลิตยางพารา",
+    "tambol": "ชุมภูพร",
+    "district": "ศรีวิไล",
+    "url": "sriwilai/sriwilai_detail"
+  },
+  {
+    "id": 3,
+    "name": "ศูนย์เรียนรู้เกษตรนาเฮา (NAHAO)",
+    "tambol": "เซกา",
+    "district": "เซกา",
+    "url": "seka/seka_detail"
+  }
+]

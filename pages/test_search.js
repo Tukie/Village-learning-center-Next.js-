@@ -9,16 +9,15 @@ const SearchPage = () => {
   const [searchResults, setSearchResults] = useState([]);
 
   const handleInputChange = (e) => {
-    const result = document.getElementById("result");
+    var result = document.getElementById("result");
     setSearchTerm(e.target.value);
-    if (e.target.value.length > 0) {
+    if (e.target.value.trim() !== "") {
       result.classList.remove("d-none");
-      result.classList.remove("opacity-0");
-      result.classList.add("opacity-100");
+      result.classList.add("d-block");
       const results = data
         .filter(
           (item) =>
-            item.name.toLowerCase().includes(e.target.value.toLowerCase()) ||
+            item.name.toString().includes(e.target.value.toLowerCase()) ||
             item.tambol.toLowerCase().includes(e.target.value.toLowerCase())
         )
         .slice(0, 5); // Limit the results to the first 5 items
@@ -31,8 +30,8 @@ const SearchPage = () => {
 
   return (
     <>
-      <Container sm>
-        <div className="d-flex flex-column align-items-center my-5">
+      <Container sm style={{ height: "68vh" }}>
+        <div className="d-flex flex-column align-items-center justify-content-center h-100 ">
           <h1 className="fw-bold text-center mb-4">ค้นหาศูนย์เรียนรู้</h1>
           <p className="text-center mb-5">
             สามารถค้นหาศูนย์เรียนรู้ชมชน โครงการยกระดับเศรฐกิจและสังคมรายตำบล
@@ -48,29 +47,18 @@ const SearchPage = () => {
             className="form-control border border border-success rounded-5 text-success fw-bold w-75"
             style={{ height: "55px" }}
           />
-
           {/* result */}
-          <Container style={{ height: "250px" }}>
-            <Container
-              fluid
-              className="shadow my-3 p-0 rounded-2 w-75 bg-light opacity-0"
-              id="result"
-            >
-              {searchResults.length > 0 ? (
-                searchResults.map((item) => (
-                  <Link
-                    key={item.id}
-                    href={item.url}
-                    className="btn btn-light py-3 w-100"
-                  >
-                    {item.name} - ตำบล: {item.tambol} - อำเภอ: {item.district} -
-                    จังหวัด: บึงกาฬ
-                  </Link>
-                ))
-              ) : (
-                <p className="btn btn-light py-3 w-100">No data found.</p>
-              )}
-            </Container>
+          <Container fluid className="shadow my-2 p-2 rounded-2 w-75" id="result">
+            {searchResults.map((item) => (
+              <Link
+                key={item.id}
+                href={item.url}
+                className="d-block text-dark text-decoration-none p-2"
+              >
+                {item.name} - ตำบล: {item.tambol} - อำเภอ: {item.district} -
+                จังหวัด: บึงกาฬ
+              </Link>
+            ))}
           </Container>
         </div>
       </Container>

@@ -13,7 +13,7 @@ export default function Sw_card() {
                 <div className="rounded-5 overflow-hidden shadow">
                     <div className="bg-imageSw p-5 d-flex flex-column align-content-center justify-content-end" style={{ height: '500px' }}>
                         <div>
-                            <Link href='/sriwilai_detail' className="fw-bold bg-light text-center p-2 rounded-5 btn btn-light mb-3 fs-4" >ศูนย์เรียนรู้การลดต้นทุนและเพิ่มประสิทธิภาพการผลิตยางพารา</Link>
+                            <Link href='/sriwilai/sriwilai_detail' className="fw-bold bg-light text-center p-2 rounded-5 btn btn-light mb-3 fs-4" >ศูนย์เรียนรู้การลดต้นทุนและเพิ่มประสิทธิภาพการผลิตยางพารา</Link>
                             <p className="pe-4 text-light text-shadow" >ศูนย์เรียนรู้เกษตรอินทรีย์ PGS ตั้งอยู่ที่ตำบลพรเจริญ อำเภอพรเจริญ จังหวัดบึงกาฬ เป็นศูนย์เรียนรู้ที่มุ่งเน้นการทำเกษตรอินทรีย์ ซึ่งเป็นวิธีการเกษตรที่ไม่ใช้สารเคมี และมุ่งเน้นความยั่งยืนในการจัดการทรัพยากรธรรมชาติ ซึ่งเป็นวิถีชีวิตที่ยังคงได้รับความนิยมในปัจจุบันโดยมีนายสมัย สีใสเป็นผู้ดูแลศูนย์เรียนรู้
                             </p>
                         </div>

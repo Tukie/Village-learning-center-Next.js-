@@ -17,7 +17,7 @@ export default function Sk_card() {
           >
             <div>
               <Link
-                href="/seka_detail"
+                href="/seka/seka_detail"
                 className="fw-bold bg-light text-center p-2 rounded-5 btn btn-light mb-3 fs-4"
               >
                 ศูนย์เรียนรู้เกษตรนาเฮา (NAHAO)

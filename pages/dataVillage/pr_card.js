@@ -13,7 +13,7 @@ export default function Pr_card() {
                 <div className="rounded-5 overflow-hidden shadow">
                     <div className="bg-imagePr p-5 d-flex flex-column align-content-center justify-content-end" style={{ height: '500px' }}>
                         <div>
-                            <Link href='/pronjarean_detail' className="fw-bold bg-light text-center p-2 rounded-5 btn btn-light mb-3 fs-4" >ศูนย์เรียนรู้เกษตรอินทรีย์ PGS</Link>
+                            <Link href='/pronjarean/pronjarean_detail' className="fw-bold bg-light text-center p-2 rounded-5 btn btn-light mb-3 fs-4" >ศูนย์เรียนรู้เกษตรอินทรีย์ PGS</Link>
                             <p className="pe-4 text-light text-shadow" >ศูนย์เรียนรู้การลดต้นทุนและเพิ่มประสิทธิภาพการผลิตยางพาราที่ตั้งอยู่บ้านชมภูทอง อำเภอศรีวิไล จังหวัดบึงกาฬ เป็นศูนย์เรียนรู้ชุมชนที่เกี่ยวข้องกับการผลิตยางพาราอย่างใกล้ชิด โดยเน้นการนำเสนอแนวคิดและเทคโนโลยีที่ทันสมัยเพื่อช่วยเพิ่มประสิทธิภาพในการผลิตยางพารา อีกทั้งยังเน้นการลดต้นทุนในการผลิตด้วยวิธีการที่เป็นมิตรต่อสิ่งแวดล้อม
                             </p>
                         </div>
