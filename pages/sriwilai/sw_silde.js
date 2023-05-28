@@ -53,7 +53,7 @@ export default function Sw_slide() {
                     </Carousel>
                 </div >
                 <center>
-                    <Link href='/sriwilai_detail' className="btn btn-light btn-lg rounded-5 text-light m1 fw-bold ">ดูเพิ่มเติม</Link>
+                    <Link href='/sriwilai/sriwilai_detail' className="btn btn-light btn-lg rounded-5 text-light m1 fw-bold ">ดูเพิ่มเติม</Link>
                 </center>
             </Container>
         </>

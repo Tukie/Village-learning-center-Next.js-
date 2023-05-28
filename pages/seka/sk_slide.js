@@ -53,7 +53,7 @@ export default function Sk_slide() {
                         </Carousel>
                     </div >
                     <center>
-                        <Link href='/seka_detail' className="btn btn-lg btn-light rounded-5 m1 text-light fw-bold ">ดูเพิ่มเติม</Link>
+                        <Link href='/seka/seka_detail' className="btn btn-lg btn-light rounded-5 m1 text-light fw-bold ">ดูเพิ่มเติม</Link>
                     </center>
                 </Container>
             </Container>
