@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMap, faPhone, faClock } from "@fortawesome/free-solid-svg-icons";
+import { faMap, faPhone, faClock, faEye } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 
 export default function Sk_card() {
@@ -18,9 +18,9 @@ export default function Sk_card() {
             <div>
               <Link
                 href="/seka/seka_detail"
-                className="fw-bold bg-light text-center p-2 rounded-5 btn btn-light mb-3 fs-4"
+                className="fw-bold bg-light text-center p-2 px-3 rounded-5 btn btn-light mb-3 fs-4"
               >
-                ศูนย์เรียนรู้เกษตรนาเฮา (NAHAO)
+                ศูนย์เรียนรู้เกษตรนาเฮา (NAHAO) <FontAwesomeIcon icon={faEye} />
               </Link>
               <p className="pe-4 text-light text-shadow">
                 ศูนย์เรียนรู้เกษตรนาเฮา (NAHAO)

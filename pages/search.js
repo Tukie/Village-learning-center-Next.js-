@@ -8,6 +8,7 @@ const SearchPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
+  // search
   const handleInputChange = (e) => {
     const result = document.getElementById("result");
     setSearchTerm(e.target.value);
@@ -19,7 +20,8 @@ const SearchPage = () => {
         .filter(
           (item) =>
             item.name.toLowerCase().includes(e.target.value.toLowerCase()) ||
-            item.tambol.toLowerCase().includes(e.target.value.toLowerCase())
+            item.tambol.toLowerCase().includes(e.target.value.toLowerCase()) ||
+            item.district.toLowerCase().includes(e.target.value.toLowerCase())
         )
         .slice(0, 5); // Limit the results to the first 5 items
       setSearchResults(results);

@@ -55,12 +55,9 @@ function NavScrollExample() {
               <FontAwesomeIcon icon={faRss} className="me-1" />
               ข่าวสาร
             </Link>
-            <Link
-              href="https://bk1.udru.ac.th/home/"
-              className="nav-link active mx-2"
-            >
+            <Link href="form" className="nav-link active mx-2">
               <FontAwesomeIcon icon={faAddressBook} className="me-1" />
-              เกี่ยวกับเรา
+              ติดต่อเรา
             </Link>
           </Nav>
           <Link

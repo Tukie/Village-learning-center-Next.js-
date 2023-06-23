@@ -68,3 +68,11 @@
 #search{
     text-indent: 1.5%;
 }
+
+.unselectable {
+    -webkit-user-drag: none; /* Safari */
+    -khtml-user-drag: none; /* Konqueror HTML */
+    -moz-user-drag: none; /* Firefox */
+    -o-user-drag: none; /* Old versions of Opera */
+    user-drag: none; /* Generic */
+  }
