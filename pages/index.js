@@ -70,7 +70,7 @@ export default function Home() {
           <Row>
             <Col xl={6}>
               <Image
-                src="https://district.cdd.go.th/kochan/wp-content/uploads/sites/111/2021/05/unnamed.png"
+                src="/unnamed.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
